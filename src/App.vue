@@ -255,26 +255,27 @@ export default {
 header {
   line-height: 1.5;
   overflow: hidden;
-  background-color: teal;
-  padding: 15px 10px;
+  background-color: rgb(16, 3, 77);
+  padding: 25px 10px;
 }
 
 header a {
   float: left;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px;
   font-family: 'Courier New', Courier, monospace;
   /* font-size: 16px; */
   border-radius: 5px;
+  font-weight: bolder;
 }
 
 .header-right a:hover {
-  background-color: turquoise;
+  background-color: rgb(136, 181, 233);
 }
 
 .header-right a.active {
-  background-color: rgba(0, 255, 255, 0.712);
+  background-color: rgba(206, 193, 238, 0.699);
   color: white;
 }
 
@@ -334,6 +335,7 @@ header a {
   font-weight: 500;
   font-size: 2rem;
   background-color: #f34134;
+  border: thick solid black;
 }
 
 .swiper {
@@ -347,6 +349,8 @@ header a {
 .mySwiper {
   width: 100%;
   display: block;
+  border-left: thick solid black;
+  border-right: thick solid black;
 }
 
 .mySwiper .swiper-slide img {
@@ -363,6 +367,9 @@ header a {
   background-color: #ae7bd0;
   display: grid;
   place-items: center;
+  border-left: thick solid black;
+  border-right: thick solid black;
+  border-bottom: thick solid black;
 }
 
 .mySwiper2 .swiper-slide {

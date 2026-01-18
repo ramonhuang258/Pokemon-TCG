@@ -10,7 +10,7 @@
 
 a {
   font-family: 'comic sans ms', cursive, sans-serif;
-  font-size: large;
+  font-size: x-large;
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
@@ -19,7 +19,7 @@ a {
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(147, 72%, 56%, 0.795);
+    background-color: rgb(52, 104, 163);
   }
 }
 
